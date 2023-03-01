@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<h1>
+    Calculator
+</h1>
+<body>
+    <div id="in"><input type="text" id="in1"></div>
+<div id="i"><input type="text" id="in3"></div>
+
+<button id="ADD" onclick="add()">ADDING</button>
+<button id="SUB" onclick="sub()">SUBTRACTION</button>
+<button id="MUL" onclick="mul()">MULTIPLY</button>
+<button id="DIV" onclick="div()">DIVISION</button>
+<div id="result"></div>
+<script>
+    function add(){
+   const a=Number(document.getElementById('in1').value);
+   const b=Number(document.getElementById('in3').value);
+ const add = a+b;
+       document.getElementById('result').innerHTML="Answer is " + add;
+    }
+    function sub(){
+   const a=Number(document.getElementById('in1').value);
+   const b=Number(document.getElementById('in3').value);
+ const sub = a-b;
+       document.getElementById('result').innerHTML="Answer is " + sub;
+    }
+    function mul(){
+   const a=Number(document.getElementById('in1').value);
+   const b=Number(document.getElementById('in3').value);
+ const mul = a*b;
+       document.getElementById('result').innerHTML="Answer is " + mul;
+    }
+    function div(){
+   const a=Number(document.getElementById('in1').value);
+   const b=Number(document.getElementById('in3').value);
+ const div = a/b;
+       document.getElementById('result').innerHTML="Answer is " + div;
+    }
+</script>
+</body>
+</html>
