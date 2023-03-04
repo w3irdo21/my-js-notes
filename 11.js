@@ -57,3 +57,14 @@ console.log(str1.lastIndexOf('here'))
 console.log(str1.slice(4,35))
 console.log(str1.replace('revising','learning'))
 console.log(str1)
+
+// Time
+// we need to use 'new' to get getTime() function worked
+let pr= new Date()
+console.log(pr)
+console.log(Date())
+console.log(pr.getTime())
+console.log(pr.getDay())
+console.log(pr.getFullYear())
+console.log(pr.getHours())
+console.log(pr.getMinutes())
