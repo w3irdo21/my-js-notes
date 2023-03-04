@@ -6,7 +6,7 @@ alert('Attention here !');
  //  JavaScript Console API 
 console.warn('used console warn here');
 console.error('Console error used here');
-console.assert(aas==aas);
+// console.assert(aas==aas);
 
 // Data types in JavaScript
 
@@ -31,3 +31,12 @@ var details={
     role:'full stack developer'
 }
 console.log(details)
+
+// Boolean
+var x=true
+var y= false
+console.log(x,y)
+
+// arrrays
+var a=[4,7,'df',9,":dfj",2]
+console.log(a)
