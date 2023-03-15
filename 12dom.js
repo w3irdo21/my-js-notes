@@ -1,4 +1,5 @@
 document.getElementById('bucket').style.border= '2px solid red'
+document.getElementById("drum").style.border='3px solid yellow'
 arr=[3,6,9,2]
 console.log(arr)
 console.log(typeof(arr))
@@ -24,3 +25,4 @@ a.splice(2,4,5,63,7)
 //means a.splice(1[means start adding elements from a[2]],4 [means delete 4 elements in series from a[2] to next 4, where a[2 will be deleted too], 5,63,7[ here these 3 will be added in the array from first'this' position])
 console.log(a)
 console.log(a.reverse())
+console.log(document.getElementById('drum').innerText)
