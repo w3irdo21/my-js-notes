@@ -232,37 +232,37 @@ tn[0].replaceChild(createdElement2, createdElement);
 // sel = document.querySelectorAll('.container')
 // console.log(sel)
 
-// function clicked(){
-//     console.log('The button was clicked')
-// }
-// window.onload = function(){
-//     console.log('The document was loaded')
+function clicked(){
+    console.log('The button was clicked')
+}
+window.onload = function(){
+    console.log('The document was loaded')
 
-// }
+}
 // Events in JavaScript
-// firstContainer.addEventListener('click', function(){
-//     document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>"
-//     console.log("Clicked on Container")
-// })
+firstContainer.addEventListener('click', function(){
+    document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>"
+    console.log("Clicked on Container")
+})
 
-// firstContainer.addEventListener('mouseover', function(){
-//     console.log("Mouse on Container")
-// })
+firstContainer.addEventListener('mouseover', function(){
+    console.log("Mouse on Container")
+})
 
-// firstContainer.addEventListener('mouseout', function(){
-//     console.log("Mouse out of Container");
-// })
+firstContainer.addEventListener('mouseout', function(){
+    console.log("Mouse out of Container");
+})
 
-// let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
-// firstContainer.addEventListener('mouseup', function(){
-//     document.querySelectorAll('.container')[1].innerHTML = prevHTML;
-//     console.log("Mouse up when clicked on Container");
-// })
+let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
+firstContainer.addEventListener('mouseup', function(){
+    document.querySelectorAll('.container')[1].innerHTML = prevHTML;
+    console.log("Mouse up when clicked on Container");
+})
 
-// firstContainer.addEventListener('mousedown', function(){
-//     document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>"
-//     console.log("Mouse down when clicked on Container");
-// })
+firstContainer.addEventListener('mousedown', function(){
+    document.querySelectorAll('.container')[1].innerHTML = "<b> We have clicked</b>"
+    console.log("Mouse down when clicked on Container");
+})
 
 
 // Arrow Functions
@@ -278,8 +278,8 @@ logKaro = ()=>{
     console.log("I am your log")
 }
 // SetTimeout and setinterval
-// clr = setTimeout(logKaro, 5000);
-// clr = setInterval(logKaro, 2000);
+clr = setTimeout(logKaro, 5000);
+clr = setInterval(logKaro, 2000);
 // use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
 
 // JavaScript localStorage
@@ -290,7 +290,7 @@ logKaro = ()=>{
 // localStorage.clear();
 
 // Json 
-// obj = {name: "harry", length: 1, a: {this: 'tha"t'}}
+// obj = {name: "harry", length: 1, a: {this: 'tha"t'}}                                                                                                                                                                                         
 // jso = JSON.stringify(obj);
 // console.log(typeof jso)
 // console.log(jso)
@@ -299,4 +299,4 @@ logKaro = ()=>{
 
 // Template literals - Backticks
 a = 34;
-console.log(`this is my ${a}`)
+console.log(`this is my ${a}`);
